@@ -26,7 +26,7 @@ This application is a web crawler i.e. given a root URL, it all does crawl all w
 There are two API's defined in the controller. One is for healthcheck and another one is for crawling.
 
 * Use any API client like "Postman" or can be directly run from the browser since these are GET requests.
-* Check if the service is up and running : http://localhost:8084/api/ping
+* Check if the service is up and running : http://localhost:8086/api/ping
 * Pass any URL to crawl API like for example: http://localhost:8086/api/crawl?url=https://www.google.com
 * Return the response in the format of JSON (each key mapping to list of adjacent links)
 
