@@ -44,4 +44,4 @@ There are few configuration properties/settings for crawler defined in applicati
 * A queue is maintained for all the links coming in order and to recursively crawl them once after the other (like breadth first search in a graph).
 * A visited set is maintained to mark a link/URL as visited so as to not repeat the crawl process again once completed.
 * A hashmap is maintain inorder to store the link URL and its adjacent links to return as output (similar to adjacency list representation of a graph).
-* Crawling is processed by and executor parallely based on the configuration parameters.
+* Crawling is processed by executor service tasks parallely based on the configuration parameters.
