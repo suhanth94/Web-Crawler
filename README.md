@@ -2,7 +2,7 @@
 
 This application is a web crawler i.e. given a root URL, it all does crawl all web URL's within the root URL's domain and returns a HTTP response returning the textual link map and relations between them.
 
-# Tools & Build
+# Tools
 
 * Java 8+
 * Spring Boot
